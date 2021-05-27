@@ -85,12 +85,15 @@ body{
 @media screen and (min-width: 960px) {
     body{
         height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items:center;
     }
     .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-areas: "box image";
-        margin: 12rem 5rem 0 5rem;
+        margin: 0 5rem;
     }
     .texts {
         grid-area: box;
