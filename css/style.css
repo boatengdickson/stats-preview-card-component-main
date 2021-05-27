@@ -42,3 +42,21 @@ body{
     font-size: 1.5rem;
     text-transform: uppercase;
 }
+
+/* Texts  */
+.text {
+    text-align: center;
+}
+.text__heading {
+    color: var(--white);
+}
+.text__paragraph {
+    color: var(--slightly-transparent-white);
+    opacity: 0.9;
+}
+
+/* Grid  */
+.grid--1x2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
