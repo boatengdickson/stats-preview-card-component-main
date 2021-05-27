@@ -54,6 +54,9 @@ body{
     color: var(--slightly-transparent-white);
     opacity: 0.9;
 }
+.accent {
+    color: var(--soft-violet);
+}
 
 /* Grid  */
 .grid--1x2 {
